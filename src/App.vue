@@ -1,14 +1,10 @@
 <template>
-
+<div class="container">
+    <Calculatrice/>
+  </div>
 </template>
 
-<script>
+<script setup>
+import Calculatrice from './components/Calculatrice.vue'
 
-
-export default {
-  name: 'App',
-  components: {
-
-  }
-};
 </script>
